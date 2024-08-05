@@ -1,0 +1,17 @@
+# production
+build
+lib
+out
+**/out
+
+# dependencies
+node_modules
+
+# misc
+.DS_Store
+
+# playwrights
+/test-results/
+/playwright-report/
+/playwright/.cache/
+

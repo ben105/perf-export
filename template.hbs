@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Performance Review - {{name}}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 20px;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .section h2 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .section p {
+      margin: 10px 0;
+    }
+    .question {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Performance Review</h1>
+  <div class="section">
+    <h2>Employee Information</h2>
+    <p>Name: {{name}}</p>
+    <p>Position: {{position}}</p>
+    <p>Department: {{department}}</p>
+    <p>Reviewer: {{reviewer}}</p>
+    <p>Date: {{date}}</p>
+  </div>
+  <div class="section">
+    <h2>Performance Review Questions and Answers</h2>
+    <div class="qa">
+      <p class="question">Question 1: What were your primary goals and objectives for the past year?</p>
+      <p>Answer: {{question1}}</p>
+    </div>
+    <div class="qa">
+      <p class="question">Question 2: How well did you achieve these goals?</p>
+      <p>Answer: {{question2}}</p>
+    </div>
+  </div>
+</body>
+</html>
+
